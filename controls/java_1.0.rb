@@ -11,6 +11,7 @@ control 'java-1.0' do
   describe java_info do
     it{ should exist }
     its(:version){ should cmp >'1.7'}
-    its(:version){ should cmp ='1.8'}
+    its(:version){ should cmp >='1.8'}
+    its(:version){ should cmp <'1.9'}
   end
 end
