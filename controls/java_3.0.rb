@@ -2,7 +2,7 @@
 # copyright: 2016, awim / mtaqwim
 # license: All rights reserved
 
-java_path = '/usr/lib/jvm/default-java'
+java_path = '/usr/lib/jvm/java-8-oracle-amd64'
 
 title 'which(UNIX)/where(Windows) java installed'
 control 'java-3.0' do
